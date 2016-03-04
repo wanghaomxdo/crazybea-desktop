@@ -1,0 +1,19 @@
+table user          用户表
+	id     			编号
+	username        登录名
+	class           昵称
+	password        密码
+	createdon       创建日期
+	topurl          用户头像
+	authority       权限
+	
+table userhistory   用户记录表
+	id              编号
+	userid          用户编号
+	userdate        登陆日期
+	
+table usertype      用户活动表
+	id              编号
+	typename        活动名称
+	creatdate       创建日期
+	typeobjective   活动目的
